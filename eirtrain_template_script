@@ -1,0 +1,11 @@
+module load eir-dl/0.1.25a5
+module load anaconda3/2023.03
+module load plink2/1.90beta6.24
+
+## X = Atrial fibrillation, venous thromboembolism or pneumonia
+
+eirtrain \
+--global_configs /X/globals.yaml
+--input_configs /X/inputs.yaml
+--output_configs /X/outputs.yaml  
+
