@@ -5,7 +5,7 @@ module load plink2/1.90beta6.24
 ## X = Atrial fibrillation, venous thromboembolism or pneumonia
 
 eirtrain \
---global_configs /X/globals.yaml
---input_configs /X/inputs.yaml
+--global_configs /X/globals.yaml \
+--input_configs /X/inputs.yaml \
 --output_configs /X/outputs.yaml  
 
